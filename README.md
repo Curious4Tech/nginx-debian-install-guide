@@ -60,12 +60,13 @@ This guide provides step-by-step instructions for installing Nginx on a Debian s
 
 6. **Verify Installation**
 
-   Open a web browser and navigate to your server's IP address or domain name. You should see the default Nginx welcome page.
- The default Nginx page is served from the following directory:
+  Open a web browser and navigate to your server's IP address or domain name. You should see the default Nginx welcome page.
+   
+  The default Nginx page is served from the following directory:
 
-**Ubuntu/Debian**: `/var/www/html/index.nginx-debian.html`. 
+ **Ubuntu/Debian**: `/var/www/html/index.nginx-debian.html`. 
 
-So to access the default page enter this on browser: `http://<server-ip>/index.nginx-debian.html`
+ So to access the default page enter this on your browser: `http://<server-ip>/index.nginx-debian.html`
 
 Replace  `<server-ip>` with your Host IP Address
 
